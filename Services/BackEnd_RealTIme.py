@@ -12,7 +12,7 @@ pan_realtime.name = json.dumps({'pan_realtime/test': "测试项目",'pan_realtim
 def index():
     return 'Hello World'
 
-
+#判据的存储格式为：{"o": {"max": 0.5, "min": 0.5}, "s": {"max": 0.5, "min": 0.5}}
 @pan_realtime.route('/pan_max_min',methods=['GET', 'POST'])
 def pan_max_min():
     data = json.loads(request.data)
