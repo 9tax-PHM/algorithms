@@ -8,9 +8,6 @@ from Services.BackEnd_RealTIme import pan_realtime
 class AppServer(BaseServer):  # http 服务应用类，在基类的基础上实现了特定的业务接口
     app = BaseServer.app
     app.register_blueprint(pan_realtime, url_prefix='/pan_realtime')
-
-
-
     appname = json.loads(pan_realtime.name)
 
 
