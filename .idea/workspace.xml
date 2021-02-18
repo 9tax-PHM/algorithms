@@ -19,21 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c8eddb-037a-4071-8e57-afa226fd1b87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaseClass/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaseClass/consulclient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaseClass/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config/Global.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config/IpConfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/ADRC/adrc_td.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/DBA/dba.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/DBA/dba_multivariate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/DISTANCE/dist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/DMINING/logistic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/BackEnd_RealTIme.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/pan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    <list default="true" id="91c8eddb-037a-4071-8e57-afa226fd1b87" name="Default Changelist" comment="first">
+      <change afterPath="$PROJECT_DIR$/Config/SetPanju.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseClass/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/BaseClass/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/Global.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/Global.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/pan.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/pan.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +65,7 @@
       <recent name="$PROJECT_DIR$/Scripts/ADRC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pan">
+  <component name="RunManager" selected="Python.SetPanju">
     <configuration name="BackEnd_RealTIme" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,6 +88,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Global" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Config/Global.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SetPanju" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Config/SetPanju.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,28 +146,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="overlap_rate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/overlap_rate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,10 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.SetPanju" />
         <item itemvalue="Python.pan" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.BackEnd_RealTIme" />
-        <item itemvalue="Python.overlap_rate" />
+        <item itemvalue="Python.Global" />
       </list>
     </recent_temporary>
   </component>
@@ -180,8 +194,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612849046866</updated>
-      <workItem from="1612849047997" duration="1919000" />
+      <workItem from="1612849047997" duration="2016000" />
+      <workItem from="1613617891215" duration="5879000" />
+      <workItem from="1613624552258" duration="383000" />
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1612851027277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612851027277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,60 +221,75 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="693" y="354" width="591" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612849146260">
+    <state x="693" y="354" width="598" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613624809561">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="693" y="354" width="591" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1612849146260" />
-    <state width="1807" height="344" key="GridCell.Tab.0.bottom" timestamp="1612850887715">
+    <state x="693" y="354" width="598" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1613624809561" />
+    <state width="476" height="506" key="DebuggerActiveHint" timestamp="1613619881117">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1612850887715" />
-    <state width="1807" height="344" key="GridCell.Tab.0.center" timestamp="1612850887712">
+    <state width="476" height="506" key="DebuggerActiveHint/67.27.1853.1053@67.27.1853.1053" timestamp="1613619881117" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1613624761663">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1612850887712" />
-    <state width="1807" height="344" key="GridCell.Tab.0.left" timestamp="1612850887712">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1613624761663" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1613624761663">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1612850887712" />
-    <state width="1807" height="344" key="GridCell.Tab.0.right" timestamp="1612850887713">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1613624761663" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1613624761662">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1612850887713" />
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1612850887716">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1613624761662" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1613624761663">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1612850887716" />
-    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1612850887715">
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1613624761663" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1613621288075">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1612850887715" />
-    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1612850887715">
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1613621288075" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1613621288075">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1612850887715" />
-    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1612850887716">
+    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1613621288075" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1613621288074">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1612850887716" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1613621288074" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1613621288075">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1613621288075" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1612851038275">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1612851038275" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Test/pan.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/Services/BackEnd_RealTIme.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/algorithms$app.coverage" NAME="app Coverage Results" MODIFIED="1612850887682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/algorithms$pan.coverage" NAME="pan Coverage Results" MODIFIED="1612850879617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
-    <SUITE FILE_PATH="coverage/algorithms$BackEnd_RealTIme.coverage" NAME="BackEnd_RealTIme Coverage Results" MODIFIED="1612850007548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Services" />
+    <SUITE FILE_PATH="coverage/algorithms$app.coverage" NAME="app Coverage Results" MODIFIED="1613621234597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithms$Global.coverage" NAME="Global Coverage Results" MODIFIED="1613619263846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Config" />
+    <SUITE FILE_PATH="coverage/algorithms$SetPanju.coverage" NAME="SetPanju Coverage Results" MODIFIED="1613624761653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Config" />
+    <SUITE FILE_PATH="coverage/algorithms$pan.coverage" NAME="pan Coverage Results" MODIFIED="1613622094616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/algorithms$BackEnd_RealTIme.coverage" NAME="BackEnd_RealTIme Coverage Results" MODIFIED="1613619456433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Services" />
     <SUITE FILE_PATH="coverage/algorithms$overlap_rate.coverage" NAME="overlap_rate Coverage Results" MODIFIED="1612849327687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts" />
   </component>
 </project>
