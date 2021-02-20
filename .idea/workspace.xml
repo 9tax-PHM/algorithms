@@ -20,11 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91c8eddb-037a-4071-8e57-afa226fd1b87" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/Config/SetPanju.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/DBA/m_dtw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/FLY/fly.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/XiaoBo/micro_wave.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseClass/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/BaseClass/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/Global.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/Global.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/pan.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/pan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/BackEnd_RealTIme.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/BackEnd_RealTIme.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump.rdb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +39,21 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="bb661be4-1b42-4eae-8831-d0999e41f362" />
+  <component name="JupyterTrust" id="2306f75c-8910-4479-8c14-b3cbc6c5ffd2" />
   <component name="ProjectId" id="1oEQ0XAZw5SQGBSsLGNQeCdo27c" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,12 +62,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -65,8 +79,8 @@
       <recent name="$PROJECT_DIR$/Scripts/ADRC" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SetPanju">
-    <configuration name="BackEnd_RealTIme" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.fly">
+    <configuration name="dba" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,12 +88,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Services" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/DBA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Services/BackEnd_RealTIme.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/DBA/dba.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Global" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dba_multivariate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,12 +110,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Config" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/DBA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Config/Global.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/DBA/dba_multivariate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SetPanju" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dtw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,12 +132,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Config" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/DBA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Config/SetPanju.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/DBA/dtw.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fly" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,12 +154,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/FLY" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/FLY/fly.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="m_dtw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,12 +176,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scripts/DBA" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/pan.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scripts/DBA/m_dtw.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SetPanju" />
-        <item itemvalue="Python.pan" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.BackEnd_RealTIme" />
-        <item itemvalue="Python.Global" />
+        <item itemvalue="Python.fly" />
+        <item itemvalue="Python.m_dtw" />
+        <item itemvalue="Python.dtw" />
+        <item itemvalue="Python.dba" />
+        <item itemvalue="Python.dba_multivariate" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +211,7 @@
       <workItem from="1612849047997" duration="2016000" />
       <workItem from="1613617891215" duration="5879000" />
       <workItem from="1613624552258" duration="383000" />
+      <workItem from="1613725049938" duration="9937000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1612851027277</created>
@@ -236,21 +251,25 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="476" height="506" key="DebuggerActiveHint/67.27.1853.1053@67.27.1853.1053" timestamp="1613619881117" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1613624761663">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1246" height="282" key="GridCell.Tab.0.bottom" timestamp="1613815683709">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1246" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613815683709" />
     <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1613624761663" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1613624761663">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1246" height="282" key="GridCell.Tab.0.center" timestamp="1613815683709">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1246" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613815683709" />
     <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1613624761663" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1613624761662">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1246" height="282" key="GridCell.Tab.0.left" timestamp="1613815683709">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1246" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613815683709" />
     <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1613624761662" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1613624761663">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1246" height="282" key="GridCell.Tab.0.right" timestamp="1613815683709">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1246" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613815683709" />
     <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1613624761663" />
     <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1613621288075">
       <screen x="67" y="27" width="1853" height="1053" />
@@ -268,28 +287,27 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1613621288075" />
+    <state x="463" y="166" key="SettingsEditor" timestamp="1613813680150">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1613813680150" />
     <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1612851038275">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1612851038275" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Services/BackEnd_RealTIme.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/algorithms$app.coverage" NAME="app Coverage Results" MODIFIED="1613621234597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithms$pan.coverage" NAME="pan Coverage Results" MODIFIED="1613725065179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/algorithms$BackEnd_RealTIme.coverage" NAME="BackEnd_RealTIme Coverage Results" MODIFIED="1612850007548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Services" />
+    <SUITE FILE_PATH="coverage/algorithms$micro_wave.coverage" NAME="micro_wave Coverage Results" MODIFIED="1613813960103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/XiaoBo" />
+    <SUITE FILE_PATH="coverage/algorithms$dba_multivariate.coverage" NAME="dba_multivariate Coverage Results" MODIFIED="1613814056367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/DBA" />
     <SUITE FILE_PATH="coverage/algorithms$Global.coverage" NAME="Global Coverage Results" MODIFIED="1613619263846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Config" />
-    <SUITE FILE_PATH="coverage/algorithms$SetPanju.coverage" NAME="SetPanju Coverage Results" MODIFIED="1613624761653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Config" />
-    <SUITE FILE_PATH="coverage/algorithms$pan.coverage" NAME="pan Coverage Results" MODIFIED="1613622094616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
-    <SUITE FILE_PATH="coverage/algorithms$BackEnd_RealTIme.coverage" NAME="BackEnd_RealTIme Coverage Results" MODIFIED="1613619456433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Services" />
+    <SUITE FILE_PATH="coverage/algorithms$fly.coverage" NAME="fly Coverage Results" MODIFIED="1613815683703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/FLY" />
+    <SUITE FILE_PATH="coverage/algorithms$m_dtw.coverage" NAME="m_dtw Coverage Results" MODIFIED="1613814259264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/DBA" />
+    <SUITE FILE_PATH="coverage/algorithms$SetPanju.coverage" NAME="SetPanju Coverage Results" MODIFIED="1613625875858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Config" />
+    <SUITE FILE_PATH="coverage/algorithms$dtw.coverage" NAME="dtw Coverage Results" MODIFIED="1613814232664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/DBA" />
     <SUITE FILE_PATH="coverage/algorithms$overlap_rate.coverage" NAME="overlap_rate Coverage Results" MODIFIED="1612849327687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts" />
+    <SUITE FILE_PATH="coverage/algorithms$dba.coverage" NAME="dba Coverage Results" MODIFIED="1613814063889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scripts/DBA" />
+    <SUITE FILE_PATH="coverage/algorithms$app.coverage" NAME="app Coverage Results" MODIFIED="1613725057401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -12,7 +12,10 @@ pan_realtime.name = json.dumps({'pan_realtime/test': "测试项目",'pan_realtim
 def index():
     return 'Hello World'
 
-#判据的存储格式为：{"o": {"max": 0.5, "min": 0.5}, "s": {"max": 0.5, "min": 0.5}}
+# 实时阈值诊断（秒级）支持电压/温度/湿度类缓变参数
+# 不存在零点对齐的问题，并且参数与工况的关系不大
+# 最大最小值判据，包括原始信号量的和速度信号量的判据的
+# 存储格式为：{"o": {"max": 0.5, "min": 0.5}, "s": {"max": 0.5, "min": 0.5}}
 @pan_realtime.route('/pan_max_min',methods=['GET', 'POST'])
 def pan_max_min():
     data = json.loads(request.data)
@@ -30,3 +33,10 @@ def pan_max_min():
         res = res + 'alam_s '
 
     return res
+
+
+# 实时基于时间窗口的诊断（分钟级），输入一分钟之内一段数据进行
+@pan_realtime.route('/pan_time_minute',methods=['GET', 'POST'])
+def pan_time_window():
+
+    return 0
